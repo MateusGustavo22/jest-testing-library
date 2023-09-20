@@ -5,22 +5,30 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest watch --all"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@hookform/resolvers": "^3.3.1",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "server-only": "^0.0.1"
+    "react-icons": "^4.11.0",
+    "server-only": "^0.0.1",
+    "zod": "^3.22.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "6.1.2",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
+    "@types/jest": "^29.5.5",
     "@types/react": "18.2.21",
     "@types/testing-library__jest-dom": "6.0.0",
+    "autoprefixer": "^10.4.15",
     "jest": "29.6.4",
     "jest-environment-jsdom": "29.6.4",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
     "typescript": "5.2.2"
   }
 }
